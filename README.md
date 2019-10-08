@@ -1,5 +1,5 @@
 # osrslab.com
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A temporary static landing page for [Old School RuneScape LAB](https://osrslab.com)'s website. For the future the project will become a single page application using REACT and interacting with the backend microservices to track statistics and perform calculations. This will be a one-stop-shop for Old School RuneScape tools.
 
@@ -17,4 +17,4 @@ A temporary static landing page for [Old School RuneScape LAB](https://osrslab.c
 5. Create a new pull request
 
 # License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details

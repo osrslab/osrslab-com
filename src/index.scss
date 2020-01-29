@@ -30,6 +30,7 @@ $navbar-tab-active-border-bottom-width: 1px;
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 
 .navbar {
@@ -38,4 +39,19 @@ $navbar-tab-active-border-bottom-width: 1px;
 
 .navbar-menu {
   background-color: transparent;
+}
+
+.footer {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px whitesmoke;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
 }

@@ -1,11 +1,11 @@
 {
-  "name": "osrslab-com",
+  "name": "osrslogs-com",
   "version": "0.0.1",
-  "description": "SPA frontend for OSRSLab.com",
+  "description": "SPA frontend for osrslogs.com",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git://github.com/osrslab/osrslab-com.git"
+    "url": "git://github.com/osrslogs/osrslogs-com.git"
   },
   "scripts": {
     "start:dev": "webpack-dev-server --config=webpack/webpack.dev.js",

@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from '../app-view';
+import Header from '../header-view';
 
-describe('<App />', () => {
+describe('<Header />', () => {
   it('should be defined', () => {
-    expect(App).toBeDefined();
+    expect(Header).toBeDefined();
   });
 
   it('should render correctly', () => {
     const tree = shallow(
-      <App />,
+      <Header />,
     );
     expect(tree).toMatchSnapshot();
   });

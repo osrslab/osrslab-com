@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 import { registerReactAxe } from './utils/accessibility/reactAxeUtil';
 
 ReactDOM.render(
-  <App/>,
+  <Router>
+    <App/>
+  </Router>,
   document.getElementById('root'),
 );
 

@@ -1,13 +1,12 @@
-# osrslab.com
-[![Build Status](https://dev.azure.com/osrslab/osrslab-com/_apis/build/status/osrslab.osrslab-com?branchName=master)](https://dev.azure.com/osrslab/osrslab-com/_build/latest?definitionId=1&branchName=master)
+# osrslogs.com
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-A temporary static landing page for [Old School RuneScape LAB](https://osrslab.com)'s website. For the future the project will become a single page application using REACT and interacting with the backend microservices to track statistics and perform calculations. This will be a one-stop-shop for Old School RuneScape tools.
+A temporary static landing page for [OSRS Logs](https://osrslogs.com)'s website. For the future the project will become a single page application using REACT and interacting with the backend microservices to track statistics and perform calculations. This will be a one-stop-shop for Old School RuneScape tools.
 
 # Getting started
 1. Clone the project 
 ```bash
-$ git clone https://github.com/osrslab/osrslab-com.git osrslab-com
+$ git clone https://github.com/osrslogs/osrslogs-com.git osrslogs-com
 ```
 2. That's it! Open in your favourite IDE and hack away!
 

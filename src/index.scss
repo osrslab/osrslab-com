@@ -4,26 +4,22 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
-$purple: #8a4d76;
-$pink: #fa7c91;
-$brown: #757763;
-$beige-light: #d0d1cd;
-$beige-lighter: #eff0eb;
+$dark-grey: #282c33;
+$light-grey: #ced5e0;
+$orange: #ff7058;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$grey-dark: $light-grey;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: $dark-grey;
+$link: $orange;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$navbar-box-shadow-size: 0 1px 0 0;
+$navbar-tab-active-border-bottom-width: 1px;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -35,3 +31,11 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-menu {
+  background-color: transparent;
+}

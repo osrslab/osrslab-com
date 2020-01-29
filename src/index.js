@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 import { registerReactAxe } from './utils/accessibility/reactAxeUtil';
+import 'index.scss';
 
 ReactDOM.render(
   <Router>

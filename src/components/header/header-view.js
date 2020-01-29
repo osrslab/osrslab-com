@@ -13,9 +13,9 @@ const Header = ({ title }) => (
             {title}
           </NavLink>
           <button className='navbar-burger' type='button' aria-label='menu' aria-expanded='false'>
-            <span aria-hidden='true'></span>
-            <span aria-hidden='true'></span>
-            <span aria-hidden='true'></span>
+            <span className='navbar-burger-style' aria-hidden='true'></span>
+            <span className='navbar-burger-style' aria-hidden='true'></span>
+            <span className='navbar-burger-style' aria-hidden='true'></span>
           </button>
         </div>
         <div className='navbar-menu'>

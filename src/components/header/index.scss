@@ -6,3 +6,15 @@ button {
   text-decoration: underline;
   cursor: pointer;
 }
+
+button:hover > span {
+  color: #ff7058;
+}
+
+button:focus > span {
+  color: #ff7058;
+}
+
+.navbar-item {
+  margin-bottom: -1px;
+}

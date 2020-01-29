@@ -6,6 +6,7 @@
 // Set your brand colors
 $dark-grey: #282c33;
 $light-grey: #ced5e0;
+$orange: #ff7058;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -13,10 +14,12 @@ $grey-dark: $light-grey;
 
 // Update some of Bulma's component variables
 $body-background-color: $dark-grey;
+$link: $orange;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $navbar-box-shadow-size: 0 1px 0 0;
+$navbar-tab-active-border-bottom-width: 1px;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";

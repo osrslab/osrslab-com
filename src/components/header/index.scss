@@ -7,11 +7,11 @@ button {
   cursor: pointer;
 }
 
-button:hover > span {
-  color: #ff7058;
+button:focus {
+  outline: 0;
 }
 
-button:focus > span {
+button:hover > span {
   color: #ff7058;
 }
 

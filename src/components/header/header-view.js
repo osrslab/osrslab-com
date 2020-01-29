@@ -8,7 +8,7 @@ const Header = ({ title }) => (
     <nav className='navbar is-transparent has-shadow'>
       <div className='container'>
         <div className='navbar-brand'>
-          <NavLink className='navbar-item' to='/'>
+          <NavLink className='navbar-item' exact to='/'>
             <img src='../public/logo-small-wide.png' alt='logo' />
             {title}
           </NavLink>
@@ -20,19 +20,19 @@ const Header = ({ title }) => (
         </div>
         <div className='navbar-menu'>
           <div className='navbar-end'>
-            <NavLink className='navbar-item is-tab is-toggle' to='/hiscores'>
+            <NavLink className='navbar-item is-tab is-toggle' activeClassName='is-active' to='/hiscores'>
               Hiscores
             </NavLink>
-            <NavLink className='navbar-item is-tab is-toggle' to='/groups'>
+            <NavLink className='navbar-item is-tab is-toggle' activeClassName='is-active' to='/groups'>
               Groups
             </NavLink>
-            <NavLink className='navbar-item is-tab is-toggle' to='/competitions'>
+            <NavLink className='navbar-item is-tab is-toggle' activeClassName='is-active' to='/competitions'>
               Competitions
             </NavLink>
-            <NavLink className='navbar-item is-tab is-toggle' to='/methods'>
+            <NavLink className='navbar-item is-tab is-toggle' activeClassName='is-active' to='/methods'>
               Methods
             </NavLink>
-            <NavLink className='navbar-item is-tab is-toggle' to='/about'>
+            <NavLink className='navbar-item is-tab is-toggle' activeClassName='is-active' to='/about'>
               About
             </NavLink>
           </div>

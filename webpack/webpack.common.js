@@ -24,7 +24,7 @@ const config = {
     extensions: ['.js', '.jsx', '.json'],
     modules: [
       SRC_DIR,
-      path.join(ROOT_DIR, 'node_modules'),
+      'node_modules',
     ],
   },
   module: {

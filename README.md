@@ -1,6 +1,6 @@
-# osrslab-com
+# osrslogs-com
 
-Single Page Application as the frontend for https://osrslab.com for all your tracking needs.
+Single Page Application as the frontend for https://osrslogs.com for all your tracking needs.
 
 ## Getting started
 
@@ -12,7 +12,7 @@ Make sure you have all of the following prerequisites on your development machin
 
 1. Clone the project
 ```bash
-$ git clone https://github.com/osrslab/osrslab-com osrslab-com
+$ git clone https://github.com/osrslogs/osrslogs-com osrslogs-com
 ```
 
 2. Install the dependencies
